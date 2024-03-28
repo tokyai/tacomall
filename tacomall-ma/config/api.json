@@ -1,0 +1,73 @@
+{
+  "open": {
+    "url": {
+      "dev": "http://127.0.0.1:4003/",
+      "lcoal": "",
+      "test": "",
+      "prod": "https://api.tacomall.codingtalk.cn/open/"
+    },
+    "domain": {
+      "oss": {
+        "authorize": {
+          "method": "POST",
+          "path": "/oss/authorize"
+        }
+      },
+      "enum": {
+        "lst": {
+          "method": "POST",
+          "path": "enum/lst"
+        }
+      }
+    }
+  },
+  "ma": {
+    "url": {
+      "dev": "http://127.0.0.1:4001/",
+      "test": "",
+      "prod": "https://api.tacomall.codingtalk.cn/ma/"
+    },
+    "domain": {
+      "page": {
+        "info": {
+          "method": "POST",
+          "path": "page/info"
+        }
+      },
+      "member": {
+        "register": {
+          "method": "POST",
+          "path": "member/register"
+        },
+        "loginByMobile": {
+          "method": "POST",
+          "path": "member/loginByMobile"
+        },
+        "info": {
+          "method": "POST",
+          "path": "member/info"
+        },
+        "cartAdd": {
+          "method": "POST",
+          "path": "member/cartAdd"
+        }
+      },
+      "goods": {
+        "page": {
+          "method": "POST",
+          "path": "goods/page"
+        }
+      },
+      "sale": {
+        "add": {
+          "method": "POST",
+          "path": "sale/formAdd"
+        },
+        "page": {
+          "method": "POST",
+          "path": "sale/formPage"
+        }
+      }
+    }
+  }
+}

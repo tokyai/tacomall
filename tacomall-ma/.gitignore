@@ -1,0 +1,12 @@
+/.idea
+/.vscode
+/unpackage
+/node_modules
+/uni_modules
+
+# git_hook
+
+.git_hook
+package-lock.json
+
+.history
